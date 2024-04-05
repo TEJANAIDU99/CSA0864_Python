@@ -1,0 +1,5 @@
+p=float(input('enter money borrowed:'))
+t=float(input('enter time taken inday:'))
+r=float(input('enter interst rate *perday:'))
+print('simple interst :',p*t*r)
+print('compound interst :',p*((1+r)**t))
