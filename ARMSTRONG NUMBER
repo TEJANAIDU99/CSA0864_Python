@@ -1,0 +1,14 @@
+n=int(input('enter a numbers:'))
+rem=0
+result=0
+temp=n
+while(n!=0):
+        rem=n%10
+        result=result+rem*rem*rem
+        n=n//10
+        if(result==temp):
+            print('it is a armstrong number:')
+        else:
+                print('it is not a armstrong number:')
+                    
+                
